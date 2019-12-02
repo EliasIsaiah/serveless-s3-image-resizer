@@ -1,0 +1,35 @@
+{
+  "name": "image-mutate",
+  "version": "1.0.0",
+  "description": "serveless-s3-image-resizer",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.580.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-source-map-support": "^2.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "serverless-webpack": "^5.3.1",
+    "source-map-support": "^0.5.16",
+    "webpack-node-externals": "^1.7.2",
+    "serverless-offline": "^5.12.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasIsaiah/serverless-s3-image-resizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasIsaiah/serverless-s3-image-resizer/issues"
+  },
+  "homepage": "https://github.com/EliasIsaiah/serverless-s3-image-resizer#readme"
+}
